@@ -1,2 +1,7 @@
 # Archieve
 Archieve/
+
+*.aux
+*.log
+*.out
+*.gz
