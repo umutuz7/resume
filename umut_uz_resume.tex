@@ -1,0 +1,161 @@
+%-------------------------
+% Resume in Latex
+% Author : Umut Uz
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+	\item\small{
+		\textbf{#1}{#2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{\Large Umut Uz} & Email : \href{mailto:umutuz7@gmail.com}{umutuz7@gmail.com}\\
+		& Mobile : +90-531-918-54-92 \\
+		& Linkedin: \href{https://www.linkedin.com/in/umutuz/}{/in/umutuz}\\
+		& Medium: \href{https://medium.com/@umutuz7}{@umutuz7}\\
+		& Github: \href{https://github.com/umutuz7}{umutuz7}\\
+	\end{tabular*}
+	
+	%-----------EXPERIENCE-----------------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Bilyoner}{Istanbul}
+	{Senior Android Engineer}{Apr 2018 - Present}
+	\resumeItemListStart
+	\resumeItem{New Generation: }
+	{Bilyoner is the largest betting company in Turkey with more than \textbf{1 million monthly active users}. Written completely in \textbf{Kotlin}, the project benefits \textbf{clean architecture} pattern with 4 separate modules for separation of concerns. \textbf{RxJava2, Dagger2, Retrofit, Mockito, JUnit, Espresso} are the main libraries used extensively throughout the application. \textbf{MVP} pattern is used to organize the UI module.}
+	\resumeItem{Legacy Application: }
+	{The app was taken over from an outsourced company. Crash free sessions increased from \%91 to \%99.9 after making a deep analysis of the 9 year-old application and fixing all major/minor bugs.}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{EMBonds}{Istanbul (comp. based in London)}
+	{Software Engineer}{Jul 2017 - Apr 2018}
+	\resumeItemListStart
+	\resumeItem{}
+	{Implemented Transparency Feeds using \textbf{RabbitMQ} message broker and \textbf{FIX}(Financial Messaging Protocol) to comply with MiFID 2 regulations}
+	\resumeItem{}
+	{Applied database partitioning to improve performance on \textbf{Postgresql} database.}
+	\resumeItem{}
+	{Enforced code review culture to the company and introduced \textbf{Gerrit}.}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Monitise MEA (aka Commencis )}{Istanbul (comp. based in London)}
+	{Android Engineer}{Nov 2016 - Jul 2017}
+	\resumeItemListStart
+	\resumeItem{IsCep: }
+	{IsCep is the mobile application of Is Bankasi with \textbf{5.2 million active users}. Project uses \textbf{MVC} pattern and cutting edge libraries like \textbf{Retrofit, Eventbus, Mockito} etc.}
+	\resumeItem{Owl: }
+	{Won internal hackathon by building an Instagram stalker app in 24 hours with a team of three people. App is used to view someone else's "home screen" on Instagram to get a feel of their taste of social media.}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Pfizer}{Istanbul (comp. based in NY)}
+	{Business Analytics\&Insights Specialist}{Jan 2016 - Nov 2016}
+	\resumeItemListStart
+	\resumeItem{}
+	{Worked as a business partner and a proactive consultant to support, challenge and drive business decisions by providing analyses to lead/support high quality decisions, participating and pro-actively contributing to business initiatives}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Bogazici University}{Istanbul}
+	{Bachelor of Engineering in Computer Engineering}{Sep. 2011 -- Jan. 2016}
+	\resumeSubheading
+	{Bahcesehir High School for Science and Technology}{Istanbul}
+	{80th place in 800.000 students in National Selection Exam}{Sep. 2006 -- Jun. 2011}
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------ACTIVITIES-----------------
+	\section{Activities}
+	\resumeSubHeadingListStart
+	\resumeSubItem{\href{https://skillsmatter.com/conferences/10488-scala-exchange-2018}{Scala Exchange: }}
+	{I worked as part of the volunteer organization team in the ScalaX 2018 event in London.}
+	\resumeSubItem{Scuba Diving: }
+	{CMAS certified 2 star diver. BUSAS (Bogazici University Underwater Sports) certified free diver.}
+	\resumeSubItem{Yoga: }
+	{Practicing yoga, mindfulness and meditation for 2 years.}
+	\resumeSubItem{Running: }
+	{Actively running with Adidas Runners Istanbul. Ran Istanbul Half Marathon.}
+	\resumeSubItem{Spinning: }
+	{Indoor spinning assistant at Urban Riders.}
+	\resumeSubHeadingListEnd
+	
+	
+	%-------------------------------------------
+\end{document}
